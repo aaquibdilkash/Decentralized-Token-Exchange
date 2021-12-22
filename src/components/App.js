@@ -22,11 +22,6 @@ const App = () => {
     loadBlockchainData(dispatch)
   }, [])
 
-  useEffect(() => {
-    // console.log(contractsLoadedSelector(state), "loaded")
-  }, [contractsLoadedSelector(state)])
-
-
   const loadBlockchainData = async (dispatch) => {
     const web3 = await loadWeb3(dispatch)
     const networkId = await web3.eth.net.getId()
