@@ -1,6 +1,6 @@
 ## ``` Decentralized File Storage. ```
 
-[Live Demo](https://decentralized-token-exchange-36b32pfsj-aaquibdilkash.vercel.app/)
+[Live Demo](https://decentralized-token-exchange.vercel.app/)
 
 [This project is deployed on Ropsten Test Network so please change network in your metamask wallet from Mainnet to Ropsten Test Network](https://metamask.io/download.html)
 
