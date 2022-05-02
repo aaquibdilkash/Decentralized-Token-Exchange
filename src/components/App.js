@@ -28,12 +28,12 @@ const App = () => {
     const accounts = await loadAccount(web3, dispatch)
     const token = await loadToken(web3, networkId, dispatch)
     if(!token) {
-      window.alert('Token smart contract not detected on the current network. Please select Ropsten test network from Metamask extension.')
+      window.alert('ERC20 Token smart contract not deployed on the current network. Please select Ropsten test network from Metamask extension.')
       return
     }
     const exchange = await loadExchange(web3, networkId, dispatch)
     if(!exchange) {
-      window.alert('Exchange smart contract not detected on the current network. Please select Ropsten test network from Metamask entension.')
+      window.alert('Token Exchange smart contract not deployed on the current network. Please select Ropsten test network from Metamask extension.')
       return
     }
   }
